@@ -1,0 +1,13 @@
+digraph "changeTextureSizeState"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="changeTextureSizeState",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GfuiLabelSetText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#ga14f9a31e80f932a65f5bee3dec5a74af",tooltip="Change the text of a label. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="gfuiSetLabelText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$guilabel_8cpp.html#aa1397d5315db5e38136962ab4f9a715b"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GfuiFontClass::getWidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_gfui_font_class.html#a96fb79e144b166ac018613a77795b7d0"];
+}

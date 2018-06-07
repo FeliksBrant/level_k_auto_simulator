@@ -1,0 +1,11 @@
+digraph "Robottools API"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node2 [label="Robot Setup Tools API",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__setuptools.html",tooltip="API to load and store car setups in a unified way, and to support setup changes during pit stops..."];
+  Node0 [label="Robottools API",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="Robot Track Tools API",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__tracktools.html",tooltip="API to gather information about the track and the cars state relative to the track. "];
+  Node0->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+}

@@ -1,0 +1,30 @@
+digraph "ANN_AddHiddenLayer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ANN_AddHiddenLayer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="message",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$string__utils_8cpp.html#a714bb1e015d3a57ef5ee2a7f390fa17a",tooltip="Prints a message. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LastListItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_list_8cpp.html#aa6ff8ec0fcf1f52622e0f43d0ec53428",tooltip="Move to the last list item. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ANN_AddLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_n_n_8cpp.html#a1dd6c0115df555d348e081a7191dafd4",tooltip="Low-level code to add a weighted sum layer. "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ANN_CalculateLayerOutputs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_n_n_8cpp.html#a458bedf9793d173aa58b6b15bb7ef433",tooltip="Calculate layer outputs. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="urandom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_distribution_8cpp.html#a5d688d70363408aef33fdb9bea5f7d50"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ANN_Backpropagate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_n_n_8cpp.html#ad232c6832c7cd9141fc2d2e7b5c8976d",tooltip="d are the derivatives at the outputs. "];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="htan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_n_n_8cpp.html#a249ed9b5b737dbeaaeac0d13ab6aef79",tooltip="Hyperbolic tangent hook. "];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="htan_d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_n_n_8cpp.html#a887af86bd2d09b15a99c35d17528b1ce",tooltip="Hyperbolic tangent derivative hook. "];
+  Node4 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ANN_FreeLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_n_n_8cpp.html#a139273a1f26b50ca0c253d4238a95a1c",tooltip="Free this layer - low level. "];
+  Node10 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ListAppend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_list_8cpp.html#a545718283a6173a63e350dee9f6bb23c",tooltip="Append an item to the list. "];
+  Node11 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

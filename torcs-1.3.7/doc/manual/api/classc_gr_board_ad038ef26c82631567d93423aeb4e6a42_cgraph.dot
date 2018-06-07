@@ -1,0 +1,20 @@
+digraph "cGrBoard::grDispCounterBoard2"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cGrBoard::grDispCounterBoard2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GfuiPrintString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$guiobject_8cpp.html#ab226e79d87e26e9dca9107ab57056d4b"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GfuiFontClass::output",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_gfui_font_class.html#a91ad2c90518edd347ebed44797b39b11"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cGrBoard::grDispMisc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_gr_board.html#a787a7fa1465791782a32a1410215bad4"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cGrBoard::grDrawGauge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_gr_board.html#a803c33e9dbfb6d232c2cbaae023456ce"];
+  Node5 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="GfuiFontHeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$guiobject_8cpp.html#a16c9a8131f2fa3e3ccabac1965c8666a"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="GfuiFontClass::getHeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_gfui_font_class.html#af7a8622b16d9d8321fa6bcf5a23352a9"];
+}

@@ -1,0 +1,21 @@
+digraph "gfuiSelectNext"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="gfuiSelectNext",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="gfuiScrollListNextElt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a079d5ab4acd51aed89531b606b964645"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GfuiScrollBarPosSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#gaa35943b6738d7be5493fdd2f0fe80664",tooltip="Set new values for position. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="gfuiGetObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a0ea204358545cb934b0d6427e49ce2a6"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_basic_8h.html#a07ea3b7c7ac18b96fd67ba3a6757ceb2"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_basic_8h.html#a5d2b2bbbf85f9a5ef76ff76cf42a4e69"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="gfuiSetFocus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$guiobject_8cpp.html#ac468a6961dd70cef1876c627cd49d848"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="gfuiLoseFocus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$guiobject_8cpp.html#aa0d7dd7b8f3d0a46e8ab2dbf065a4883"];
+}

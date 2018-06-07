@@ -1,0 +1,48 @@
+digraph "PlibSoundInterface::update"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PlibSoundInterface\l::update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CarSoundData::copyEngPri",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_car_sound_data.html#a25e28b75e147b445e14b466efb598276"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CarSoundData::getCarPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_car_sound_data.html#aef6f649befa07c5416ad7cee425d5c72"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="CarSoundData::getCarSpeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_car_sound_data.html#a56087139ea4c170ff94f1d1545c08fcd"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoundSource::setSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_source.html#ac9d162e991bf0c56d5fe0f5dffaf7595",tooltip="Set source position and velocity. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SoundSource::setListener",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_source.html#add1fc33b4428a542889c8de7004dfd4d",tooltip="Set listener position and velocity. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoundSource::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_source.html#ab41cdcf43ae6533ce889490fbe78209b",tooltip="Calculate environmental parameters for current situation. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="sortSndPriority",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_plib_sound_interface_8cpp.html#a4b8885aa3b5ee023f5112509373a2348"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="CarSoundData::getEngineSound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_car_sound_data.html#aca680374d3ad41b387228d957cc23683"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="TorcsSound::setVolume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#af156e9cfa86ce158e3756f3a29285bb3",tooltip="Set the volume. "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="TorcsSound::pause",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#a4f2daca49d7477dc92568612c924c205"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="TorcsSound::resume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#aa4e8428b26281d299b05237373802d24"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="TorcsSound::setLPFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#acb35a4a0d2cc8f6143d219f690865f37",tooltip="Set the filter. "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="TorcsSound::setPitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#a9a0300729076f193dc900c9d4f827137",tooltip="Set the pitch. "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="TorcsSound::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#a178d2f21bebafca204c333de0390ef85"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="TorcsSound::start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#a0bde13d3733e4172980c51be7af3aa59"];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="TorcsSound::stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#ae64e34314e0ed5a74f7892accadcb4fc"];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="SoundInterface::SortSingle\lQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_interface.html#a1d7ea5cf255e52bde8cff7318d5258a1",tooltip="Find the max amplitude sound in car_sound_data and put it in smap. "];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="PlibSoundInterface\l::SetMaxSoundCar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_plib_sound_interface.html#a5eefe95898d21715751d5943ba242e38"];
+  Node19 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

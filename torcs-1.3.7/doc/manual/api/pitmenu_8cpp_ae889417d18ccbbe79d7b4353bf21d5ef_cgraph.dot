@@ -1,0 +1,14 @@
+digraph "rmUpdtRepair"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="rmUpdtRepair",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GfuiEditboxGetString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#ga4354295d05e5260c1e6cde551ee24b77",tooltip="Get the string. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="gfuiGetObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a0ea204358545cb934b0d6427e49ce2a6"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GfuiEditboxSetString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#ga7e769622dd66806a6bc7a6bb2e8e0c25",tooltip="Set a new string. "];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

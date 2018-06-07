@@ -1,0 +1,14 @@
+Big map:
+1. [0.9] LevelKDriver.h {have added most necessary member functions, implement getgear()}
+2. [0.9] cardata.h .cpp {successfully installed, wait to be implemented in LKD.cpp}
+2.5 [0.99] valgrind with TORCS {first installed with debug version configuration, valgrind only helps check memory leak, and torcs runs super slow with valgrind enabled (torcs -g)}
+3. [0.9] opponent.h .cpp {successfully installed, wait to be implemented in LKD.cpp}
+4. [] LevelKDriver.cpp
+generate track
+checking after init in drive() in LKD.cpp
+add isStuck()
+
+Note: In step 3, I have used forward decleartion to avoid cycle #include between "opponent.h" and "LevelKDriver.h"
+    See below two links for reference.
+    https://stackoverflow.com/questions/4757565/what-are-forward-declarations-in-c
+    https://stackoverflow.com/questions/5319906/error-expected-class-name-before-token

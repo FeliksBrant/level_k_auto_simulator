@@ -1,0 +1,13 @@
+;
+;   file                 : level1_2.def
+;   created              : Mon Mar 19 17:49:05 EDT 2018
+;   copyright            : (C) 2002 Guankun Su
+;
+
+LIBRARY	level1_2
+
+SECTIONS .data READ WRITE
+
+EXPORTS
+	level1_2
+

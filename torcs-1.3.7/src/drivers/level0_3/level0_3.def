@@ -1,0 +1,13 @@
+;
+;   file                 : level0_3.def
+;   created              : Fri Apr 6 14:20:20 EDT 2018
+;   copyright            : (C) 2002 guanksu
+;
+
+LIBRARY	level0_3
+
+SECTIONS .data READ WRITE
+
+EXPORTS
+	level0_3
+

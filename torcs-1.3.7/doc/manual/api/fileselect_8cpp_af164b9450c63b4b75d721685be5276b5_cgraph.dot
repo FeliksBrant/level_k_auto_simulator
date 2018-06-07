@@ -1,0 +1,11 @@
+digraph "rmClickOnFile"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="rmClickOnFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GfuiScrollListGetSelected\lElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#gaf00f8a4f5b35495fe8537f75e95b1def",tooltip="Get the selected element from the scroll list. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="gfuiGetObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a0ea204358545cb934b0d6427e49ce2a6"];
+}

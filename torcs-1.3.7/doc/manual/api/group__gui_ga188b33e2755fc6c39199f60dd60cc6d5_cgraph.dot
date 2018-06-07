@@ -1,0 +1,31 @@
+digraph "GfuiScreenRelease"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="GfuiScreenRelease",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GfuiScreenDeactivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#gafcf1d3bd5cbc4b7b001fb1f35d3e1f83",tooltip="Deactivate the current screen. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GfuiDisplayNothing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#gaee94daac7cab61329487b8cca09b5238",tooltip="Dummy display function for glut. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="gfuiReleaseObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a88978272c8b0faee3f8b2dd3ab4e707d"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="gfuiReleaseLabel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a6dd4410564ef586b2513b6e07dce87d0"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="gfuiReleaseButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#ae8471f9510a279b708c5f381af14f3b1"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="gfuiReleaseGrButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a32440e60ae31e63ac50483a210b07441"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="gfuiReleaseScrollist",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a9d83a6e1264d364d92db2abe5d3b5dc9"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="gfuiScrollListRemElt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$guiscrollist_8cpp.html#ab8aa67f15ff806546270982e3d0a2e8c"];
+  Node4 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="gfuiReleaseScrollbar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#aff7c8aaa89fc5b28516c4296c2aaefa9"];
+  Node4 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="gfuiReleaseEditbox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#af01b80c840b79ec09f46b0afd1e3ac78"];
+  Node4 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="gfuiReleaseImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a8b38cbbe1a1d323ecd6c81b7583ff4bb"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="GfImgFreeTex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__img.html#ga9d9a836b28aed4c05fe275cff278143f",tooltip="Free the texture. "];
+}

@@ -1,0 +1,19 @@
+Follow torcs.pdf ch7.3 to learn how to paint your car.
+
+Below are my steps to create custome car textures.
+Take level0 cars as example. 
+I am using gimp to modify image files.
+1. Modify car1-trb1.xcf files in $TORCS_BASE/src/drivers/level0 subfolders (/0,/1,.../9).
+
+2. Save car1-trb1.xcf file as car1-trb1.rgb.
+
+3. modify Makefile in the current directory and subdirectories according to ch7.3 in torcs.pdf or refer to /bt drivers.
+
+4. make build in $TORCS_BASE/src/drivers/level0.
+
+5. You can now play with your new car textures.
+
+NOTE: car1-trb1.xcf and car1-trb1.rgb in $TORCS_BASE/src/drivers/level[0,1,2] are sample texture files. 
+NOTE: Don't change filenames of .xcf or .rgb files! Car texture iamge file must match up with car type. 
+
+

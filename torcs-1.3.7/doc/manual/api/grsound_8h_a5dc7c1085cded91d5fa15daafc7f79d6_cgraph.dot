@@ -1,0 +1,43 @@
+digraph "grRefreshSound"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="grRefreshSound",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cGrCamera::getPosv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_gr_camera.html#a3e7f5694160c0c854ec51054b5a8e8fe"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cGrCamera::getSpeedv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_gr_camera.html#a175318658d2394a9b800269390c958c3"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cGrCamera::getUpv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_gr_camera.html#a63f584d19860098752beed106fdb5e2b"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cGrCamera::getCenterv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_gr_camera.html#a32dc291fb0ab3cb10470ba5bca005f7b"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="CarSoundData::setListener\lPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_car_sound_data.html#a5e8f6a53c56b749b411475e433a7b053"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_endpoint_8cpp.html#a2accefe73b960a585da7a676ec62c950"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="intersect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_b_box_8h.html#a427b7907596402f7b5f2bfcdf7752c1b"];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Object::getBBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_object.html#af6cb6eb4cf920010ae4ab1fb6494eb95"];
+  Node7 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="addPair",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_endpoint_8cpp.html#a10dec7a3d9160175da6fe1e56afa1253"];
+  Node7 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="removePair",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_endpoint_8cpp.html#a913c82ad9ed803e1bd435df1b2d76fa7"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="CarSoundData::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_car_sound_data.html#adc8d7d71ba960539392587d2413541aa"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="CarSoundData::calculateAttenuation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_car_sound_data.html#a2ef6a3b5a6abefd99b4496e363dd58f2",tooltip="Use inverse distance to calculate attenuation of sounds originating from this car. Useful for prioritisation of sounds. "];
+  Node12 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="CarSoundData::calculateEngine\lSound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_car_sound_data.html#a5ecced97d08d621260e618bc73f7a6ab",tooltip="Calculate characteristics of the engine sound. "];
+  Node12 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="CarSoundData::calculateBackfire\lSound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_car_sound_data.html#af18bd355aeae6aebc7b3a44a091bc10e",tooltip="Calculate the frequency and amplitude of a looped backfiring sound. "];
+  Node12 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="CarSoundData::calculateTyre\lSound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_car_sound_data.html#ab783035c36e0d55def0af8e4ec1ecf44"];
+  Node12 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="CarSoundData::calculateCollision\lSound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_car_sound_data.html#a2e346ce3da07081b02a4f39206707ac5"];
+  Node12 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="CarSoundData::calculateGear\lChangeSound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_car_sound_data.html#a0f1018adfb5efff816d47216762a56b3"];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="SoundInterface::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_interface.html#a8d9133c2ff67133ec54b3266a97d555f",tooltip="Update sound for a given observer. "];
+}

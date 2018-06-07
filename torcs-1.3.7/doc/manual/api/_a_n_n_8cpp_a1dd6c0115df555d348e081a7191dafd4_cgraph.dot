@@ -1,0 +1,24 @@
+digraph "ANN_AddLayer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ANN_AddLayer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ANN_CalculateLayerOutputs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_n_n_8cpp.html#a458bedf9793d173aa58b6b15bb7ef433",tooltip="Calculate layer outputs. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="urandom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_distribution_8cpp.html#a5d688d70363408aef33fdb9bea5f7d50"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ANN_Backpropagate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_n_n_8cpp.html#ad232c6832c7cd9141fc2d2e7b5c8976d",tooltip="d are the derivatives at the outputs. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="htan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_n_n_8cpp.html#a249ed9b5b737dbeaaeac0d13ab6aef79",tooltip="Hyperbolic tangent hook. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="htan_d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_n_n_8cpp.html#a887af86bd2d09b15a99c35d17528b1ce",tooltip="Hyperbolic tangent derivative hook. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ANN_FreeLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_n_n_8cpp.html#a139273a1f26b50ca0c253d4238a95a1c",tooltip="Free this layer - low level. "];
+  Node7 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ListAppend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_list_8cpp.html#a545718283a6173a63e350dee9f6bb23c",tooltip="Append an item to the list. "];
+  Node8 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,40 @@
+digraph "v3t::v3t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="v3t::v3t",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="v3t::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#aa0373a34516914e1fb02f8396e3a2003"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="v3t::operator+=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#a9f639681ca88294cd11f672bef6683c4"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="v3t::operator-=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#a7d531a18bcdfcd82cc441c44c6c2ccd9"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="v3t::operator*=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#a280c2782ebf81d6a0093777f2aaa1f47"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="v3t::operator/=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#a06a54dbdbce1c3c99159f4d34926e2fd"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="v3t::operator-",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#a3a631cbb2555c89dd89c863a677e526d"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="v3t::v3t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#ab982c773b618a922dcedb690c65069c5"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="v3t::operator+",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#a23f11abf69dad2c031ebcd386be0944e"];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="v3t::operator/",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#aca96ccda47671baead42fc1d5f7b4119"];
+  Node10 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="v3t::operator==",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#ae8e4b93628fe1bb9292c5f8fd6a3d797"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="v3t::operator!=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#a170a3694a7ec91c2247172444239522a"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="v3t::len",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#a550d43947d8d01d038df513585b479f3"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="v3t::normalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#a4da276c3db868585ef974df4676695c7"];
+  Node14 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="v3t::dirVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#adb24fde08611bdef179249c96dc87f12"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="v3t::approxEquals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv3t.html#aa1ac329ab180f8fcf2e3a7fcab47bd90"];
+}

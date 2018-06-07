@@ -1,0 +1,11 @@
+digraph "dtVertexBase"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dtVertexBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Complex::setBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_complex.html#a92b7dbce645bd373937a5fea17e1ddd9"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Complex::changeBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_complex.html#a5392e09aeb9f63bffdc3c2298baf94d4"];
+}

@@ -1,0 +1,13 @@
+digraph "cGrScreen::~cGrScreen"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cGrScreen::~cGrScreen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cGrCamera::remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_gr_camera.html#a485ef636d965259811e611cc85ddcc49"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="cGrCamera::getDist2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_gr_camera.html#a7b8a37d9edf5bc9fe153aafa49b8cfe3"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cGrBoard::shutdown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_gr_board.html#a770d28a5a26305d542b44404f1940af3"];
+}

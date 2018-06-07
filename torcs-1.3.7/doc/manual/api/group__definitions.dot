@@ -1,0 +1,13 @@
+digraph "Global Definitions"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="Track Structure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__trackstruct.html",tooltip="This is the tracks structure definition. "];
+  Node3 [label="Race Information Structure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__raceinfo.html",tooltip="This is the race information structures definition. "];
+  Node2 [label="Car Structure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__carstruct.html",tooltip="This is the cars structure definition. "];
+  Node0 [label="Global Definitions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+}

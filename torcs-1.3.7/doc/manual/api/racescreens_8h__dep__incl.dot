@@ -1,0 +1,22 @@
+digraph "src/libs/racescreens/racescreens.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/libs/racescreens\l/racescreens.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/libs/racescreens\l/carsetupscreen.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$carsetupscreen_8cpp.html",tooltip="Car setup screen. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/libs/racescreens\l/driverselect.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$driverselect_8cpp.html",tooltip="Driver selection screen. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/libs/racescreens\l/fileselect.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fileselect_8cpp.html",tooltip="Files selection screen. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/libs/racescreens\l/miscscreens.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$miscscreens_8cpp.html",tooltip="Common screens for race manager menus. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/libs/racescreens\l/pitmenu.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pitmenu_8cpp.html",tooltip="Pit menu. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/libs/racescreens\l/racemenu.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$racemenu_8cpp.html",tooltip="Race options menu. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/libs/racescreens\l/results.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$results_8cpp.html",tooltip="Display results. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/libs/racescreens\l/trackselect.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$trackselect_8cpp.html"];
+}

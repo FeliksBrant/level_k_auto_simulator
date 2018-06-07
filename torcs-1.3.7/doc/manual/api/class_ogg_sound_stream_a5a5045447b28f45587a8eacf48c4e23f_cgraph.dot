@@ -1,0 +1,20 @@
+digraph "OggSoundStream::getSoundFormat"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="OggSoundStream::getSound\lFormat",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="OggSoundStream::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ogg_sound_stream.html#a4dd5a4bcfca2603e963bba6193a87126"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="OggSoundStream::isValid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ogg_sound_stream.html#a3fdecbd79f9d81f4412d356f133e7233"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="OggSoundStream::errorString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ogg_sound_stream.html#a7dd6c3989a12ea09debdf8b9ab5b01e6"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="OggSoundStream::rewind",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ogg_sound_stream.html#afaa731d7f2517a3b6eec3aff426fdc0f"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="OggSoundStream::display",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_ogg_sound_stream.html#a35ccc32d9c1a59d793e26f9739144a79"];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

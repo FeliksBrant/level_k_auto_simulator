@@ -1,0 +1,23 @@
+digraph "NewANN"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NewANN",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DeleteANN",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_n_n_8cpp.html#ac867e461477687ef14dcf11c6cc6a61c",tooltip="Delete a neural network. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ClearList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_list_8cpp.html#a8b39d13e6ea2402df74e4774c0b46d5e",tooltip="Clear the list. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PopItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_list_8cpp.html#aa6ac359f8555d70dacf306b5b75a2e41",tooltip="Remove the topmost item of the list (also frees obj memory) "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="FreeListItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_list_8cpp.html#a646e8adc0165d4f383d71dbc23622ba7"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="RemoveListItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_list_8cpp.html#a477864815bf55a89c7753964248f75a9"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="GetPrevItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_list_8cpp.html#a7c65e06abcfbc32a41ebf230aa6227ca"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="GetNextItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_list_8cpp.html#a9fd609a2ad8693b33b41332d6e00afec"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="message",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$string__utils_8cpp.html#a714bb1e015d3a57ef5ee2a7f390fa17a",tooltip="Prints a message. "];
+}

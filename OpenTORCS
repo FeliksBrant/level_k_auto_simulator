@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd /home/guanksu/Desktop/TORCS_ubuntu
+evince torcs.pdf &
+/home/guanksu/sublime_text_3/sublime_text $TORCS_BASE/src
+
+# gnome-terminal --working-directory=$TORCS_BASE/export/include
+gnome-terminal --working-directory=$TORCS_BASE/src/drivers/levelK
+
+# open valgrind.log
+# gnome-terminal --working-directory=/home/guanksu/.torcs
+
+torcs

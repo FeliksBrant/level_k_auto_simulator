@@ -1,0 +1,17 @@
+digraph "PlibSoundInterface::SetMaxSoundCar"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PlibSoundInterface\l::SetMaxSoundCar",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TorcsSound::setVolume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#af156e9cfa86ce158e3756f3a29285bb3",tooltip="Set the volume. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TorcsSound::setPitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#a9a0300729076f193dc900c9d4f827137",tooltip="Set the pitch. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TorcsSound::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#a178d2f21bebafca204c333de0390ef85"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TorcsSound::start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#a0bde13d3733e4172980c51be7af3aa59"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="TorcsSound::stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#ae64e34314e0ed5a74f7892accadcb4fc"];
+}

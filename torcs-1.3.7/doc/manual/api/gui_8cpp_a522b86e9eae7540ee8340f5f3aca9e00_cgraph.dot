@@ -1,0 +1,16 @@
+digraph "gfuiPassiveMotion"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="gfuiPassiveMotion",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="gfuiUpdateFocus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#ad0ee648d27adf739342e6f8c351d535c"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="gfuiMouseIn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$guiobject_8cpp.html#ad50c175636e40eea115ee1a2eed30f27"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="gfuiLoseFocus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$guiobject_8cpp.html#aa0d7dd7b8f3d0a46e8ab2dbf065a4883"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="gfuiSetFocus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$guiobject_8cpp.html#ac468a6961dd70cef1876c627cd49d848"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

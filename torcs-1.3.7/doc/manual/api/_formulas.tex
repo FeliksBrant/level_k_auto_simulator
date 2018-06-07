@@ -1,0 +1,155 @@
+\documentclass{article}
+\usepackage{epsfig}
+\pagestyle{empty}
+\begin{document}
+$\sum_i |f(x_i)-t_i|^2$
+\pagebreak
+
+$x_i$
+\pagebreak
+
+$f(\cdot)$
+\pagebreak
+
+$t_i$
+\pagebreak
+
+$i$
+\pagebreak
+
+$E\{|f(X)-T|^2\}$
+\pagebreak
+
+$g(y) =g(\sum_i w_i f_i (x))$
+\pagebreak
+
+$w$
+\pagebreak
+
+$C$
+\pagebreak
+
+$\partial C/\partial x$
+\pagebreak
+
+$\partial C/\partial x = \partial g/\partial y \partial y/\partial w \partial w/\partial x$
+\pagebreak
+
+$y = \sum_i w_i f_i (x)$
+\pagebreak
+
+$y = \sum_i \big((m_i-f_i(x)) w_i\big)^2$
+\pagebreak
+
+$g(y) = e^y$
+\pagebreak
+
+$1/\sigma$
+\pagebreak
+
+\[ f(x) = \max \{f_1(x), f_2(x)\} = f_1(x) + \max \{0, f_2(x) - f_1(x)\}. \]
+\pagebreak
+
+\[ \max \{0, f_2(x) - f_1(x)\} = \lim_{c \rightarrow \infty} \gamma(f_2(x)-f_1(x), \lambda, c), \]
+\pagebreak
+
+$\lambda \in [0,1], \quad c>0$
+\pagebreak
+
+\[ \gamma(t,\lambda,c) = \begin{cases} t - \frac{(1-\lambda)^2}{2c} & \textrm{if}~ \frac{1-\lambda}{c} \leq t,\\ \lambda t - \frac{c}{2} t^2 & \textrm{if}~ -\frac{\lambda}{c} \leq t \leq \frac{1-\lambda}{c},\\ -\frac{\lambda^2}{2c} & \text{if}~ t \leq -\frac{\lambda}{c}. \end{cases} \]
+\pagebreak
+
+$(1-\lambda)^2/2c$
+\pagebreak
+
+$\lambda^2/2c$
+\pagebreak
+
+$1/c$
+\pagebreak
+
+\[ \frac{\partial \gamma(t,\lambda,c)}{\partial t} = \begin{cases} 1 & \textrm{if}~ \frac{1-\lambda}{c} \leq t,\\ \lambda - c t & \textrm{if}~ -\frac{\lambda}{c} \leq t \leq \frac{1-\lambda}{c},\\ 0 & \text{if}~ t \leq -\frac{\lambda}{c}. \end{cases} \]
+\pagebreak
+
+\[ f(x) = \max \{f_1(x), f_2(x)\} = \lim_{p \rightarrow \infty} (f_1(x)^p, f_2(x)^p)^{1/p}. \]
+\pagebreak
+
+$\lambda$
+\pagebreak
+
+$a$
+\pagebreak
+
+$r, s'$
+\pagebreak
+
+$a'$
+\pagebreak
+
+$s'$
+\pagebreak
+
+$Q$
+\pagebreak
+
+$\delta = r + \gamma Q(s',a') - Q(s,a)$
+\pagebreak
+
+$e(s,a) = e(s,a)+ 1$
+\pagebreak
+
+$s,a$
+\pagebreak
+
+\[ Q_{t}(s,a) = Q_{t-1}(s,a) + \alpha \delta e_{t}(s,a), \]
+\pagebreak
+
+$e_{t}(s,a) = \gamma \lambda e_{t-1}(s,a)$
+\pagebreak
+
+$a = a'$
+\pagebreak
+
+$s = s'$
+\pagebreak
+
+$r$
+\pagebreak
+
+$a* = \arg \max_b Q(s',b)$
+\pagebreak
+
+$\delta = r + \gamma Q(s',a^*) - Q(s,a)$
+\pagebreak
+
+\[ Q(s,a) = Q(s,a)+\alpha \delta e(s,a) \]
+\pagebreak
+
+$(a'=a*)$
+\pagebreak
+
+$e(s,a)$
+\pagebreak
+
+$\gamma \lambda e(s,a)$
+\pagebreak
+
+$e(s,a) = 0$
+\pagebreak
+
+$\delta = r + \gamma E{Q(s',a^*)|\pi} - Q(s,a)$
+\pagebreak
+
+$\gamma \lambda e(s,a) P(a|s,\pi) $
+\pagebreak
+
+\[ Q_{t+1}(s,a) = Q_{t}(s,a) + \alpha (r_{t+1} + \gamma E\{Q(s'|\pi)\} - Q_{t}(s,a)). \]
+\pagebreak
+
+$\sum_{b} Q(s',b) P(a'=b|s')$
+\pagebreak
+
+\[ P[1]=exp(Q_1/\sqrt{v_1})/(exp(Q_1/\sqrt{v_1})+exp(Q_2/\sqrt{v2})) \]
+\pagebreak
+
+\end{document}

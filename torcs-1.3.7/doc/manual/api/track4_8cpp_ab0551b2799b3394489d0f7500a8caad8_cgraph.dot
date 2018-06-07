@@ -1,0 +1,18 @@
+digraph "commonSideInit"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="commonSideInit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="initSideForStraight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$track4_8cpp.html#a3fc0a8f8352169355700628a51757535",tooltip="Set up side and border track segments for straight segments. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="initSideForTurn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$track4_8cpp.html#af45f7bb7ffb634265f57a5b3b01bf31e",tooltip="Set up side and border track segments for turns. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="sign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_math_functions_8h.html#a96c13b7e2b0a7c169ee21ca9d5597a2d"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="initAnglesAndGradients",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$track4_8cpp.html#ace8fae0b1613ddb2ffe8f03966f1aac6",tooltip="Set up border segment angles and gradients. "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="updateMinMaxForTurn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$track4_8cpp.html#a7869f6a6d112dc1619b7b793e574f24b",tooltip="Update global min/max values for turns (discretized approximation). "];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

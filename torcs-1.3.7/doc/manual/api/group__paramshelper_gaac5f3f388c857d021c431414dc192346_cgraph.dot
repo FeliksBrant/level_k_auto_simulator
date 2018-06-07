@@ -1,0 +1,18 @@
+digraph "parmClean"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="parmClean",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="removeSection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__paramshelper.html#gac51895ad01bc596f2891d7f1dce31a3b",tooltip="Helper function to remove a section and its contents (subsections, elements). "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GfHashRemStr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__hash.html#gac3be5c7744cd56beaed1632489e56d7d",tooltip="Remove an element with a string key from a hash table. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="hash_str",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hash_8cpp.html#a54816daefc845f0b3ade33c7243c6b71"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="gfRemElem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hash_8cpp.html#ad7fbb4bb2471283e27a8104d62d88720",tooltip="Remove a table element. "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="removeParam",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__paramshelper.html#ga927ac59c03ac010619f07922f6a63885",tooltip="Helper function to remove given parameter. "];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

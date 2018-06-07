@@ -1,0 +1,11 @@
+digraph "Track Structure"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node0 [label="Track Structure",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 [label="Track Loader Module\l Interface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__trackmodint.html",tooltip="Interface for track loader modules, the track loader module is discovered and loaded during runtime..."];
+  Node1 [label="Global Definitions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__definitions.html",tooltip="This is the global definitions used in TORCS. "];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, label="track.h", color="darkgreen", dir="none", style="dashed"];
+}

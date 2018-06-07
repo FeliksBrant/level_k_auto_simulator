@@ -1,0 +1,239 @@
+make[1]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src'
+make[2]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/interfaces'
+ Exporting car.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/car.h
+ Exporting graphic.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/graphic.h
+ Exporting playerpref.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/playerpref.h
+ Exporting raceman.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/raceman.h
+ Exporting replay.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/replay.h
+ Exporting robot.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/robot.h
+ Exporting simu.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/simu.h
+ Exporting telemetry.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/telemetry.h
+ Exporting track.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/track.h
+make[2]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/interfaces'
+make[2]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/txml'
+ Exporting xml.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/xml.h
+ Exporting xmlparse.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/xmlparse.h
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/txml'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/tgf'
+ Exporting tgf.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/tgf.h
+ Exporting os.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/os.h
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/tgf'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/tgfclient'
+ Exporting tgfclient.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/tgfclient.h
+ Exporting screen_properties.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/screen_properties.h
+ Exporting glfeatures.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/glfeatures.h
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/tgfclient'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/client'
+ Exporting client.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/client.h
+ Exporting exitmenu.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/exitmenu.h
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/client'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/confscreens'
+ Exporting driverconfig.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/driverconfig.h
+ Exporting joystickconfig.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/joystickconfig.h
+ Exporting mouseconfig.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/mouseconfig.h
+ Exporting controlconfig.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/controlconfig.h
+ Exporting graphconfig.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/graphconfig.h
+ Exporting simuconfig.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/simuconfig.h
+ Exporting soundconfig.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/soundconfig.h
+ Exporting openglconfig.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/openglconfig.h
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/confscreens'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/racescreens'
+ Exporting racescreens.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/racescreens.h
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/racescreens'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/robottools'
+ Exporting robottools.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/robottools.h
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/robottools'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/raceengineclient'
+ Exporting singleplayer.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/singleplayer.h
+ Exporting raceinit.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/raceinit.h
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/raceengineclient'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/learning'
+ Exporting policy.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/learning/policy.h
+ Exporting ann_policy.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/learning/ann_policy.h
+ Exporting ANN.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/learning/ANN.h
+ Exporting learn_debug.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/learning/learn_debug.h
+ Exporting real.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/learning/real.h
+ Exporting string_utils.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/learning/string_utils.h
+ Exporting List.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/learning/List.h
+ Exporting MathFunctions.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/learning/MathFunctions.h
+ Exporting Distribution.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/learning/Distribution.h
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/learning'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/portability'
+ Exporting portability.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/portability.h
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/portability'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/math'
+ Exporting linalg_t.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/tmath/linalg_t.h
+ Exporting v2_t.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/tmath/v2_t.h
+ Exporting v3_t.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/tmath/v3_t.h
+ Exporting v4_t.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/tmath/v4_t.h
+ Exporting straight2_t.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/tmath/straight2_t.h
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/math'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/musicplayer'
+ Exporting musicplayer.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/musicplayer/musicplayer.h
+ Exporting SoundStream.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/musicplayer/SoundStream.h
+ Exporting OggSoundStream.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/musicplayer/OggSoundStream.h
+ Exporting OpenALMusicPlayer.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/musicplayer/OpenALMusicPlayer.h
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/musicplayer'
+make[2]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs'
+make[2]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/linux'
+ Exporting osspec.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/osspec.h
+make[2]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/linux'
+make[2]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu'
+make[4]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2'
+make[5]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2/SOLID-2.0'
+make[6]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2/SOLID-2.0/include'
+make[7]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2/SOLID-2.0/include/3D'
+ Exporting Basic.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/3D/Basic.h
+ Exporting Matrix.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/3D/Matrix.h
+ Exporting Point.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/3D/Point.h
+ Exporting Quaternion.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/3D/Quaternion.h
+ Exporting Tuple3.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/3D/Tuple3.h
+ Exporting Tuple4.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/3D/Tuple4.h
+ Exporting Vector.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/3D/Vector.h
+make[7]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2/SOLID-2.0/include/3D'
+make[7]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2/SOLID-2.0/include/SOLID'
+ Exporting solid.h to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/include/SOLID/solid.h
+make[7]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2/SOLID-2.0/include/SOLID'
+make[6]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2/SOLID-2.0/include'
+make[5]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2/SOLID-2.0'
+make[4]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2'
+make[4]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv3'
+make[4]: Nothing to be done for 'exports'.
+make[4]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv3'
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu'
+make[2]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules'
+make[1]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src'
+make[1]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src'
+make[2]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/txml'
+make[4]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/txml/gennmtab'
+make[4]: Nothing to be done for 'tools'.
+make[4]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/txml/gennmtab'
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/txml'
+make[2]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs'
+make[2]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools/accc'
+make[3]: Nothing to be done for 'tools'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools/accc'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools/nfs2ac'
+make[3]: Nothing to be done for 'tools'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools/nfs2ac'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools/nfsperf'
+make[3]: Nothing to be done for 'tools'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools/nfsperf'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools/package'
+make[3]: Nothing to be done for 'tools'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools/package'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools/texmapper'
+make[3]: Nothing to be done for 'tools'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools/texmapper'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools/trackgen'
+make[3]: Nothing to be done for 'tools'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools/trackgen'
+make[2]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/tools'
+make[2]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/linux'
+make[2]: Nothing to be done for 'tools'.
+make[2]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/linux'
+make[1]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src'
+make[1]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src'
+make[2]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/confscreens'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/confscreens'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/racescreens'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/racescreens'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/robottools'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/robottools'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/txml'
+make[4]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/txml/gennmtab'
+make[4]: Nothing to be done for 'compil'.
+make[4]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/txml/gennmtab'
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/txml'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/tgf'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/tgf'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/tgfclient'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/tgfclient'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/client'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/client'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/raceengineclient'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/raceengineclient'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/learning'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/learning'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/portability'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/portability'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/math'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/math'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/musicplayer'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs/musicplayer'
+make[2]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/libs'
+make[2]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/linux'
+make[2]: Nothing to be done for 'compil'.
+make[2]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/linux'
+make[2]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu'
+make[4]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2'
+make[5]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2/SOLID-2.0'
+make[6]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2/SOLID-2.0/src'
+make[6]: Nothing to be done for 'compil'.
+make[6]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2/SOLID-2.0/src'
+make[5]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2/SOLID-2.0'
+g++ -shared -o simuv2.so simu.o simuitf.o car.o aero.o engine.o axle.o steer.o susp.o brake.o wheel.o transmission.o differential.o collide.o categories.o -L/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/lib  -lopenal -lalut -lvorbisfile -L/usr/lib  -lplibsg -lplibul -L/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/lib -lsolid 
+ Exporting simuv2.so to /home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/export/modules/simu/simuv2.so
+make[4]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu/simuv2'
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/simu'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/track'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/track'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/graphic'
+make[4]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/graphic/ssggraph'
+make[4]: Nothing to be done for 'compil'.
+make[4]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/graphic/ssggraph'
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/graphic'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/telemetry'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules/telemetry'
+make[2]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/modules'
+make[2]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/berniw'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/berniw'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/berniw2'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/berniw2'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/berniw3'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/berniw3'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/bt'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/bt'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/damned'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/damned'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/human'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/human'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/inferno'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/inferno'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/inferno2'
+make[3]: Nothing to be done for 'compil'.
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/inferno2'
+make[3]: Entering directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/level0'
+make[3]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers/level0'
+/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/Make-default.mk:679: recipe for target 'subdirs' failed
+make[2]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src/drivers'
+/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/Make-default.mk:679: recipe for target 'subdirs' failed
+make[1]: Leaving directory '/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/src'
+/home/guanksu/Desktop/TORCS_ubuntu/torcs-1.3.7/Make-default.mk:679: recipe for target 'subdirs' failed

@@ -1,0 +1,16 @@
+Use this tutorial:
+http://ddokkddokk.tistory.com/5
+
+if you run a 64 bit version of Linux export the following variables:
+# export CFLAGS=”−fPIC ”
+# export CPPFLAGS=$CFLAGS
+# export CXXFLAGS=$CFLAGS
+
+Just to play safe clear the above defined variables:
+# export CFLAGS=
+# export CPPFLAGS=
+# export CXXFLAGS=
+
+For libpng, run:
+sudo apt-get install libpng-dev
+https://askubuntu.com/questions/508934/how-to-install-libpng-and-zlib

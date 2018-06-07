@@ -1,0 +1,17 @@
+digraph "ParametricDistribution"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ParametricDistribution",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Distribution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_distribution.html",tooltip="Probability distribution. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ExponentialDistribution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_exponential_distribution.html",tooltip="Exponential probability distribution. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="LaplacianDistribution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_laplacian_distribution.html",tooltip="Laplacian probability distribution. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NormalDistribution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_normal_distribution.html",tooltip="Gaussian probability distribution. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="UniformDistribution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_uniform_distribution.html",tooltip="Uniform probability distribution. "];
+}

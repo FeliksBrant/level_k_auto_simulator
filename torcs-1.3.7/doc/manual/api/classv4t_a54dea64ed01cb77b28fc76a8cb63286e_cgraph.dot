@@ -1,0 +1,40 @@
+digraph "v4t::v4t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="v4t::v4t",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="v4t::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#a636edb1365f106fa246ee6d4666eca1b"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="v4t::operator+=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#a023ac95d6229b25206295da323c5fa5b"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="v4t::operator-=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#aaa7b73b79ecda4fbb1d1ec472be1cfc4"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="v4t::operator*=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#a1129af6c8e62cc5043cdefbe26902205"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="v4t::operator/=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#a8da6800d0c8ddd7572e9fcd5adff8b7a"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="v4t::operator-",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#a0dcdb09abfbefeddf78eff01d2213fef"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="v4t::v4t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#a8703188742527932b927e0f7417a2c2d"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="v4t::operator+",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#a79cddfda61807f30c29933bf59bcdea4"];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="v4t::operator/",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#aa4045de9acec6ab234e17ee91ab5e2c1"];
+  Node10 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="v4t::operator==",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#aa2f4bb14dbb02174f962a3f0e9624e12"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="v4t::operator!=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#ab04b2da70d088c98e5f710e953bf2a40"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="v4t::len",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#ab87562ce137e7be7bb6b96a3674dc061"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="v4t::normalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#a98b201be08871b7d31bca0c0c2639c2d"];
+  Node14 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="v4t::dist",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#a624eb4f09198526cfd12c0a5edd81f4f"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="v4t::approxEquals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classv4t.html#a873fa7ecb3b916dcf727923512fc495b"];
+}

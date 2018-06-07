@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    file                 : level0_2.xml
+    created              : Fri Feb 2 16:54:21 EST 2018
+    copyright            : (C) 2002 guanksu
+-->
+
+<!--    This program is free software; you can redistribute it and/or modify  -->
+<!--    it under the terms of the GNU General Public License as published by  -->
+<!--    the Free Software Foundation; either version 2 of the License, or     -->
+<!--    (at your option) any later version.                                   -->
+
+<!DOCTYPE params SYSTEM "../../libs/tgf/params.dtd">
+<params name="level0_2" type="robotdef">
+  <section name="Robots">
+    <section name="index">
+      <section name="0">
+        <attstr name="name" val="level0_2 0"></attstr>
+        <attstr name="desc" val=""></attstr>
+        <attstr name="team" val=""></attstr>
+        <attstr name="author" val="Guankun Su"></attstr>
+        <attstr name="car name" val="car1-trb1"></attstr>
+        <attstr name="category" val="trb1"></attstr>
+        <attnum name="race number" val="100"></attnum>
+        <attnum name="red" val="1.0"></attnum>
+        <attnum name="green" val="1.0"></attnum>
+        <attnum name="blue" val="1.0"></attnum>
+      </section>
+
+      <section name="1">
+        <attstr name="name" val="level0_2 1"></attstr>
+        <attstr name="desc" val=""></attstr>
+        <attstr name="team" val=""></attstr>
+        <attstr name="author" val="Guankun Su"></attstr>
+        <attstr name="car name" val="car1-trb1"></attstr>
+        <attstr name="category" val="trb1"></attstr>
+        <attnum name="race number" val="101"></attnum>
+        <attnum name="red" val="1.0"></attnum>
+        <attnum name="green" val="1.0"></attnum>
+        <attnum name="blue" val="1.0"></attnum>
+      </section>
+
+      <section name="2">
+        <attstr name="name" val="level0_2 2"></attstr>
+        <attstr name="desc" val=""></attstr>
+        <attstr name="team" val=""></attstr>
+        <attstr name="author" val="Guankun Su"></attstr>
+        <attstr name="car name" val="car1-trb1"></attstr>
+        <attstr name="category" val="trb1"></attstr>
+        <attnum name="race number" val="102"></attnum>
+        <attnum name="red" val="1.0"></attnum>
+        <attnum name="green" val="1.0"></attnum>
+        <attnum name="blue" val="1.0"></attnum>
+      </section>
+
+      <section name="3">
+        <attstr name="name" val="level0_2 3"></attstr>
+        <attstr name="desc" val=""></attstr>
+        <attstr name="team" val=""></attstr>
+        <attstr name="author" val="Guankun Su"></attstr>
+        <attstr name="car name" val="car1-trb1"></attstr>
+        <attstr name="category" val="trb1"></attstr>
+        <attnum name="race number" val="103"></attnum>
+        <attnum name="red" val="1.0"></attnum>
+        <attnum name="green" val="1.0"></attnum>
+        <attnum name="blue" val="1.0"></attnum>
+      </section>
+
+      <section name="4">
+        <attstr name="name" val="level0_2 4"></attstr>
+        <attstr name="desc" val=""></attstr>
+        <attstr name="team" val=""></attstr>
+        <attstr name="author" val="Guankun Su"></attstr>
+        <attstr name="car name" val="car1-trb1"></attstr>
+        <attstr name="category" val="trb1"></attstr>
+        <attnum name="race number" val="104"></attnum>
+        <attnum name="red" val="1.0"></attnum>
+        <attnum name="green" val="1.0"></attnum>
+        <attnum name="blue" val="1.0"></attnum>
+      </section>
+
+      <section name="5">
+        <attstr name="name" val="level0_2 5"></attstr>
+        <attstr name="desc" val=""></attstr>
+        <attstr name="team" val=""></attstr>
+        <attstr name="author" val="Guankun Su"></attstr>
+        <attstr name="car name" val="car1-trb1"></attstr>
+        <attstr name="category" val="trb1"></attstr>
+        <attnum name="race number" val="105"></attnum>
+        <attnum name="red" val="1.0"></attnum>
+        <attnum name="green" val="1.0"></attnum>
+        <attnum name="blue" val="1.0"></attnum>
+      </section>
+
+      <section name="6">
+        <attstr name="name" val="level0_2 6"></attstr>
+        <attstr name="desc" val=""></attstr>
+        <attstr name="team" val=""></attstr>
+        <attstr name="author" val="Guankun Su"></attstr>
+        <attstr name="car name" val="car1-trb1"></attstr>
+        <attstr name="category" val="trb1"></attstr>
+        <attnum name="race number" val="106"></attnum>
+        <attnum name="red" val="1.0"></attnum>
+        <attnum name="green" val="1.0"></attnum>
+        <attnum name="blue" val="1.0"></attnum>
+      </section>
+
+      <section name="7">
+        <attstr name="name" val="level0_2 7"></attstr>
+        <attstr name="desc" val=""></attstr>
+        <attstr name="team" val=""></attstr>
+        <attstr name="author" val="Guankun Su"></attstr>
+        <attstr name="car name" val="car1-trb1"></attstr>
+        <attstr name="category" val="trb1"></attstr>
+        <attnum name="race number" val="107"></attnum>
+        <attnum name="red" val="1.0"></attnum>
+        <attnum name="green" val="1.0"></attnum>
+        <attnum name="blue" val="1.0"></attnum>
+      </section>
+
+      <section name="8">
+        <attstr name="name" val="level0_2 8"></attstr>
+        <attstr name="desc" val=""></attstr>
+        <attstr name="team" val=""></attstr>
+        <attstr name="author" val="Guankun Su"></attstr>
+        <attstr name="car name" val="car1-trb1"></attstr>
+        <attstr name="category" val="trb1"></attstr>
+        <attnum name="race number" val="108"></attnum>
+        <attnum name="red" val="1.0"></attnum>
+        <attnum name="green" val="1.0"></attnum>
+        <attnum name="blue" val="1.0"></attnum>
+      </section>
+
+      <section name="9">
+        <attstr name="name" val="level0_2 9"></attstr>
+        <attstr name="desc" val=""></attstr>
+        <attstr name="team" val=""></attstr>
+        <attstr name="author" val="Guankun Su"></attstr>
+        <attstr name="car name" val="car1-trb1"></attstr>
+        <attstr name="category" val="trb1"></attstr>
+        <attnum name="race number" val="109"></attnum>
+        <attnum name="red" val="1.0"></attnum>
+        <attnum name="green" val="1.0"></attnum>
+        <attnum name="blue" val="1.0"></attnum>
+      </section>
+    </section>
+  </section>
+</params>

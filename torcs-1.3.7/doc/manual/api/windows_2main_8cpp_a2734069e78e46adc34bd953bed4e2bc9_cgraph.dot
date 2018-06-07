@@ -1,0 +1,29 @@
+digraph "setUserLocalDir"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="setUserLocalDir",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="convertDelimiter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$windows_2main_8cpp.html#a09cc5ff2230c80ae129e88a6c5eef8f2"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GfCreateDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tgf_8cpp.html#a4ace7663701434fc0b5e11711c3a6478",tooltip="Create directory for given path recursively, so all missing parent directories are created as well..."];
+  Node3 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SetLocalDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tgf_8cpp.html#a3b805e874447210bec05e3125e431e97"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="prepareLocalDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$windows_2main_8cpp.html#a5620a1e9bff26cf7b0840b33710b26dc"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="copyFileIfNotExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$windows_2main_8cpp.html#a3686c86abdb33b33ca024a4c2be7d628"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="GetLocalDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tgf_8cpp.html#ae34eae3991aacabaf9c64025449d8c87"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="GfCreateDirForFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tgf_8cpp.html#a9fd45dff58c64fdf70b9697a2cdf1bd1",tooltip="Create directory for given file path recursively, so all missing parent directories are created as we..."];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="GetDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tgf_8cpp.html#a8da3bb990f9a7f989debae89ee819751"];
+  Node5 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="GfDirGetListFiltered",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__dir.html#ga7d012669960c6c8c49f90aeea72bd2db",tooltip="Get the list of files with matching suffix of a given directory. "];
+  Node5 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="GfDirFreeList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__dir.html#ga3122d776c26e7f7fcd73718e2dd7a9c2",tooltip="Free a directory list. "];
+}

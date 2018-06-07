@@ -1,0 +1,38 @@
+digraph "closest_points"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="closest_points",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Convex::support",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_convex.html#a131c56e489bc55da5e9df20c1c956dc2"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Vector::length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vector.html#a0dad2d3f4af84741ae5f7390eba4a09e"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Vector::length2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vector.html#a8677c48cf107765986e71cd2f23b1b0f"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_vector_8h.html#a4e9a20e9955e34afdb3659d68f6935c8"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Transform::getBasis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_transform.html#a8e9a61db370b01cf2c97fc18fc58708d"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="set_max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_basic_8h.html#a9cf5187d24c80097fc60260e99402198"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="dot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_quaternion_8h.html#af8cf8caa91dd2209c53a956d41cb26ae"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="degenerate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_convex_8cpp.html#adefcedd9b8dd1b27d27758783f45e30f"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="closest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_convex_8cpp.html#a5180cc5215ff67d7edb40ae5c496a63e"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="compute_det",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_convex_8cpp.html#a47f727886ee47085de28eb2402ee93b1"];
+  Node11 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="valid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_convex_8cpp.html#a60781a687abfe8088029869da10a4e88"];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="compute_vector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_convex_8cpp.html#aaf9364ecd646c1767896492fc94ec8dc"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Tuple3::setValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tuple3.html#a3ef593aef12718dc19f9cc0acff26491"];
+  Node10 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="compute_points",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_convex_8cpp.html#a3c86129adbc81887a77438527ae00fb8"];
+  Node15 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

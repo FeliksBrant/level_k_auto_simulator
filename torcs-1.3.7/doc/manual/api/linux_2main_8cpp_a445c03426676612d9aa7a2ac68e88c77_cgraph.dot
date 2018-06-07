@@ -1,0 +1,17 @@
+digraph "init_args"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="init_args",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SetLocalDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tgf_8cpp.html#a3b805e874447210bec05e3125e431e97"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SetLibDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tgf_8cpp.html#af0dfc9e2548f65ec691894376269018d"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SetDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tgf_8cpp.html#a18a3c87e46ca9691801b2f126956c13d"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SetSingleTextureMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tgf_8cpp.html#a20324841e6d3c4a7aa7a73082467ad45"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="GfuiMouseSetHWPresent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ctrl.html#ga990444da7ea8145f2132931dbf2f8ac1",tooltip="Force the hardware mouse pointer. "];
+}

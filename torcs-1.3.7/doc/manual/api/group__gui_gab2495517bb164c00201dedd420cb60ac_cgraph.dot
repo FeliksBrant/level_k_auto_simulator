@@ -1,0 +1,17 @@
+digraph "GfuiLabelCreateEx"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="GfuiLabelCreateEx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ForeGroundColor::setRGBA",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_fore_ground_color.html#ad998072a2e3c1e468f1cf03888ef369d"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GfuiFontClass::getWidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_gfui_font_class.html#a96fb79e144b166ac018613a77795b7d0"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GfuiFontClass::getDescender",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_gfui_font_class.html#a9285866cfaa26f2db416dec244ede542"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="GfuiFontClass::getHeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_gfui_font_class.html#af7a8622b16d9d8321fa6bcf5a23352a9"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="gfuiAddObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a94c49170d91c9d6978d7f4405d9ea064"];
+}

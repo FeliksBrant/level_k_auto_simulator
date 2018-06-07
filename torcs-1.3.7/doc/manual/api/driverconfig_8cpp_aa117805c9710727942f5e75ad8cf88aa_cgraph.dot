@@ -1,0 +1,30 @@
+digraph "ChangeName"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ChangeName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GfuiEditboxGetString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#ga4354295d05e5260c1e6cde551ee24b77",tooltip="Get the string. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="gfuiGetObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a0ea204358545cb934b0d6427e49ce2a6"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="UpdtScrollList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$driverconfig_8cpp.html#a2aa90fadabf1c63b8d61ce11823d20c9"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="GfuiScrollListExtractElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#gaebf0e44274f0525e1cefa8e7bf8a310d",tooltip="Extract the specified element from the scroll list. "];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="gfuiScrollListRemElt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$guiscrollist_8cpp.html#ab8aa67f15ff806546270982e3d0a2e8c"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="GfuiScrollListInsertElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#ga3c81b7a74b4222b261b85a51facd4590",tooltip="Insert an element in a scroll list. "];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="gfuiScrollListInsElt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$guiscrollist_8cpp.html#ab6ce161f3fca6d7a24f8348157cecb8d"];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="GfuiScrollBarPosSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#gaa35943b6738d7be5493fdd2f0fe80664",tooltip="Set new values for position. "];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="min",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_basic_8h.html#a07ea3b7c7ac18b96fd67ba3a6757ceb2"];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_basic_8h.html#a5d2b2bbbf85f9a5ef76ff76cf42a4e69"];
+}

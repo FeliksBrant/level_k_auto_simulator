@@ -1,0 +1,34 @@
+digraph "GfuiEditboxCreate"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="GfuiEditboxCreate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="onFocusLost",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$controlconfig_8cpp.html#a59cfe754e770f29c0f4e9c4d52201f83"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="updateButtonText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$controlconfig_8cpp.html#af959d86b3d6a7b6190fb8bdddbf29cf7"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GfctrlGetNameByRef",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__ctrl.html#gaa442694772535f7f366b2a5f15e052fb",tooltip="Get a control name by its reference. "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="GfuiButtonSetText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#ga6cffbd411c8e21094c49eca5e4b41443",tooltip="Change the label of a button. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="gfuiSetLabelText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a2271d218f85c4fb52b2e10a4e8fba144"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="GfuiFontClass::getWidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_gfui_font_class.html#a96fb79e144b166ac018613a77795b7d0"];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="GfuiEditboxSetString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#ga7e769622dd66806a6bc7a6bb2e8e0c25",tooltip="Set a new string. "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="gfuiGetObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a0ea204358545cb934b0d6427e49ce2a6"];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="GfuiVisibilitySet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__gui.html#ga54cdf60d97666c43dd2a16e4647a8309",tooltip="Set/unset the visibility attribute of an object. "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="gfuiGetObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$guiobject_8cpp.html#a0ea204358545cb934b0d6427e49ce2a6"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="GfuiFontClass::getDescender",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_gfui_font_class.html#a9285866cfaa26f2db416dec244ede542"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="GfuiFontClass::getHeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_gfui_font_class.html#af7a8622b16d9d8321fa6bcf5a23352a9"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="gfuiAddObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gui_8h.html#a94c49170d91c9d6978d7f4405d9ea064"];
+}

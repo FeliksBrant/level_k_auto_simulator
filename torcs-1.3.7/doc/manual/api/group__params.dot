@@ -1,0 +1,17 @@
+digraph "Parameter Handling API"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node4 [label="Parameter List Handling API",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__paramslist.html",tooltip="Handling of multiple sections or subsections and the elements in parameter sets. "];
+  Node0 [label="Parameter Handling API",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 [label="Parameter Data Handling API",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__paramsdata.html",tooltip="Handling of data in parameter sets. "];
+  Node2 [label="Parameter File Handling API",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__paramsfile.html",tooltip="Create, read and write parameter files. "];
+  Node5 [label="Parameter Helper Functions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__paramshelper.html",tooltip="Internal (not exported) helper functions, not part of the API. "];
+  Node1 [label="Parameter Handling\l API Setup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__conf.html",tooltip="Initialize and shutdown the Parameter Handling API. "];
+  Node0->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node5 [shape=plaintext, dir="back", style="solid"];
+}

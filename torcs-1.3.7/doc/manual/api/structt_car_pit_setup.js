@@ -1,0 +1,36 @@
+var structt_car_pit_setup =
+[
+    [ "TDiffType", "structt_car_pit_setup.html#ac05c1cb1b5c1614f5f32e1ed40ecf7ed", [
+      [ "NONE", "structt_car_pit_setup.html#ac05c1cb1b5c1614f5f32e1ed40ecf7eda9bce68304cdb9de7682924d78668ee24", null ],
+      [ "SPOOL", "structt_car_pit_setup.html#ac05c1cb1b5c1614f5f32e1ed40ecf7eda8928792be394323f7d2551ddada0f84d", null ],
+      [ "FREE", "structt_car_pit_setup.html#ac05c1cb1b5c1614f5f32e1ed40ecf7eda24b4e507f7fc4cd41818765ce03f4187", null ],
+      [ "LIMITED_SLIP", "structt_car_pit_setup.html#ac05c1cb1b5c1614f5f32e1ed40ecf7edad9f482bd8c3f4c79ccac5b4e88c8ca54", null ],
+      [ "VISCOUS_COUPLER", "structt_car_pit_setup.html#ac05c1cb1b5c1614f5f32e1ed40ecf7edaf2e2d7f350173260ec2306d70d445cec", null ]
+    ] ],
+    [ "arbspring", "structt_car_pit_setup.html#aa407841c5d3603009e1408875144d5a7", null ],
+    [ "brakePressure", "structt_car_pit_setup.html#a195e005dba4a437d8b6bbc5bfc704d12", null ],
+    [ "brakeRepartition", "structt_car_pit_setup.html#a4007ba736cdad3c4891d6412f50a77f5", null ],
+    [ "difflockinginputbraketq", "structt_car_pit_setup.html#a844734596e4a1c592782c241f0c3680f", null ],
+    [ "difflockinginputtq", "structt_car_pit_setup.html#ae05ec5fb3a7d2e2491921cc868081e4f", null ],
+    [ "diffmaxtqbias", "structt_car_pit_setup.html#ad81caf13baee7a42b49b5eec287d5d0e", null ],
+    [ "diffmintqbias", "structt_car_pit_setup.html#a16465091febae9c7c3aae8f21bb9ffa9", null ],
+    [ "diffratio", "structt_car_pit_setup.html#a6956397f7c86ac1dd9564f49624b63c1", null ],
+    [ "diffslipbias", "structt_car_pit_setup.html#a817fe18f876a7755f4deb7b411a410a9", null ],
+    [ "diffType", "structt_car_pit_setup.html#a74333ffddb43e355bba37d87011227bb", null ],
+    [ "gearsratio", "structt_car_pit_setup.html#aededd760db49b0293576f1d0ec3b4ddd", null ],
+    [ "steerLock", "structt_car_pit_setup.html#ada526534a455d370a26ed8ab514b3ac7", null ],
+    [ "suspfastbump", "structt_car_pit_setup.html#a2d707afe847d1a67b2f316a2615156e7", null ],
+    [ "suspfastrebound", "structt_car_pit_setup.html#a8b43a7d6cfb0e461dc14a21155be6df3", null ],
+    [ "susppackers", "structt_car_pit_setup.html#ab00ab05056aa38d6fc427674bb07470f", null ],
+    [ "suspslowbump", "structt_car_pit_setup.html#a5caf6380271edffe0523d8579a5e1dcb", null ],
+    [ "suspslowrebound", "structt_car_pit_setup.html#aa25703e71fc4d7728776ac1683bcc755", null ],
+    [ "suspspring", "structt_car_pit_setup.html#a32c5390dbe8c19ef714308df80cfdbc1", null ],
+    [ "thirdbump", "structt_car_pit_setup.html#a08aead273a4aa88c101cd6256c4489b6", null ],
+    [ "thirdrebound", "structt_car_pit_setup.html#abe91b98b0f0e9ff1696dc0a7eda4b3ef", null ],
+    [ "thirdspring", "structt_car_pit_setup.html#ae9f3266f3278e2491c97423181bd31f3", null ],
+    [ "thirdX0", "structt_car_pit_setup.html#a73acc42d9445655acb2e8e2c655ba8a1", null ],
+    [ "wheelcamber", "structt_car_pit_setup.html#a2ca9fc52636caf3b03e6a9ad8225b50c", null ],
+    [ "wheelrideheight", "structt_car_pit_setup.html#aaaa0ac0b9eadf6239ce36f357b39da02", null ],
+    [ "wheeltoe", "structt_car_pit_setup.html#a5396fb1b57049edc40ee1dbb6742ff14", null ],
+    [ "wingangle", "structt_car_pit_setup.html#a8449c27d65d05c6b4ad52c01f50eb334", null ]
+];

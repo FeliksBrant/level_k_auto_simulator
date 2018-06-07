@@ -1,0 +1,11 @@
+digraph "parmOutput"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="parmOutput",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" curParam" ,fontname="Helvetica"];
+  Node2 [label="param",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structparam.html",tooltip="Parameter header structure, a parameter can either carry a numeric or a string value, numeric value is constraint by min and max, string value by options in within. "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" curSection" ,fontname="Helvetica"];
+  Node3 [label="section",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsection.html",tooltip="Section header structure. "];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" curSubSection\nparent" ,fontname="Helvetica"];
+}

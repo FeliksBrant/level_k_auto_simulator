@@ -1,0 +1,19 @@
+digraph "stopMenuMusic"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="stopMenuMusic",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="getMusicPlayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$musicplayer_8cpp.html#a44e5f603abefd690fd66c7db16cb6237"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="getMenuSoundStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$musicplayer_8cpp.html#a0df83eaa1ff90bc61bbeca9a23878041"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="OpenALMusicPlayer::stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_open_a_l_music_player.html#a292034036641d715e21bd56042ea00d6"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="OpenALMusicPlayer::\lcheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_open_a_l_music_player.html#a09102ba903810e00db8b6afa25afd731"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="OpenALMusicPlayer::\lrewind",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_open_a_l_music_player.html#a3c072658726141cc411c9a72212f87df"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoundStream::rewind",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_stream.html#af659a28b67b529902ae219f39272976a"];
+}

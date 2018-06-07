@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="param",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structparam.html",tooltip="Parameter header structure, a parameter can either carry a numeric or a string value, numeric value is constraint by min and max, string value by options in within. "];
+}

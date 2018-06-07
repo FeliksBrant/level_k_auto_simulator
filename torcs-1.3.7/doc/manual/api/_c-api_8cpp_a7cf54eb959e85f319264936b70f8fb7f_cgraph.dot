@@ -1,0 +1,17 @@
+digraph "dtVertexRange"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dtVertexRange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="dtVertexIndices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_c-api_8cpp.html#a81531cae5290300bd43adfdc29a56a45"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Complex::getBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_complex.html#aed5277aa50b1dc9b8a4457ab20001aba"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="VertexBase::getPointer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vertex_base.html#a046a0a2982cd502d26db6a5e5bb064b2"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Complex::setBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_complex.html#a92b7dbce645bd373937a5fea17e1ddd9"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Complex::changeBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_complex.html#a5392e09aeb9f63bffdc3c2298baf94d4"];
+}

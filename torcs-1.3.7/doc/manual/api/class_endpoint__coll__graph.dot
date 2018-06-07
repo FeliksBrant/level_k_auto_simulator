@@ -1,0 +1,26 @@
+digraph "Endpoint"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Endpoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pred\nsucc" ,fontname="Helvetica"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" objPtr" ,fontname="Helvetica"];
+  Node2 [label="Object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_object.html"];
+  Node1 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" lower\nupper" ,fontname="Helvetica"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" bbox" ,fontname="Helvetica"];
+  Node3 [label="BBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_box.html"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" extent" ,fontname="Helvetica"];
+  Node4 [label="Vector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_vector.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Tuple3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_tuple3.html"];
+  Node6 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" center" ,fontname="Helvetica"];
+  Node6 [label="Point",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_point.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" curr\nprev" ,fontname="Helvetica"];
+  Node7 [label="Transform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_transform.html"];
+  Node6 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" origin" ,fontname="Helvetica"];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" basis" ,fontname="Helvetica"];
+  Node8 [label="Matrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_matrix.html"];
+  Node9 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" shapePtr" ,fontname="Helvetica"];
+  Node9 [label="Shape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_shape.html"];
+}

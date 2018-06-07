@@ -1,0 +1,19 @@
+;
+;   file                 : level2_1.def
+;   created              : Thu Feb 22 00:40:22 EST 2018
+;   copyright            : (C) 2002 guanksu
+;
+;
+;    This program is free software; you can redistribute it and/or modify
+;    it under the terms of the GNU General Public License as published by
+;    the Free Software Foundation; either version 2 of the License, or   
+;    (at your option) any later version.                                 
+;
+
+LIBRARY	level2_1
+
+SECTIONS .data READ WRITE
+
+EXPORTS
+	level2_1
+

@@ -1,0 +1,13 @@
+digraph "TorcsSound::~TorcsSound"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TorcsSound::~TorcsSound",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TorcsSound::setVolume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#af156e9cfa86ce158e3756f3a29285bb3",tooltip="Set the volume. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TorcsSound::setPitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#a9a0300729076f193dc900c9d4f827137",tooltip="Set the pitch. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TorcsSound::setLPFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_torcs_sound.html#acb35a4a0d2cc8f6143d219f690865f37",tooltip="Set the filter. "];
+}

@@ -1,0 +1,25 @@
+digraph "src/libs/tgf/tgf.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/libs/tgf/tgf.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/libs/tgf/directory.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$directory_8cpp.html",tooltip="Directory API. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/libs/tgf/os.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$os_8h.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/libs/tgf/module.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$module_8cpp.html",tooltip="Dynamic module API. "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/libs/tgf/os.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$os_8cpp.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/libs/tgf/hash.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hash_8cpp.html",tooltip="Hash API. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/libs/tgf/params.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$params_8cpp.html",tooltip="Parameter handling API. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/libs/tgf/tgf.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tgf_8cpp.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/libs/tgf/trace.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$trace_8cpp.html",tooltip="Allow the trace in the file trace.txt "];
+}

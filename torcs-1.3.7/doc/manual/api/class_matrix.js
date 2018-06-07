@@ -1,0 +1,27 @@
+var class_matrix =
+[
+    [ "Matrix", "class_matrix.html#a2dba13c45127354c9f75ef576f49269b", null ],
+    [ "Matrix", "class_matrix.html#acfc1445f8a381d32f1989cd35714c290", null ],
+    [ "Matrix", "class_matrix.html#a86fb314cb6eab2a18b2e864ddabddfbe", null ],
+    [ "Matrix", "class_matrix.html#aa0b214623a8985deb4f50d4fb7f350b4", null ],
+    [ "Matrix", "class_matrix.html#af65b5bd530cd8c68af30b8de76b12463", null ],
+    [ "Matrix", "class_matrix.html#a330159b7826c42780b557005ef606c6e", null ],
+    [ "absolute", "class_matrix.html#a184e79a03b1c09aa3e900f514ebcf900", null ],
+    [ "adjoint", "class_matrix.html#ac8161afb54bac07f110881875c48e79d", null ],
+    [ "determinant", "class_matrix.html#af3777d072522d30482509ef3285d56ab", null ],
+    [ "getValue", "class_matrix.html#aadc4e9da715302228785333b2e4eb5a2", null ],
+    [ "getValue", "class_matrix.html#a615253737450a0f42599fe6882fbe164", null ],
+    [ "inverse", "class_matrix.html#a6783f936127313b660c4f67e4455ab05", null ],
+    [ "operator*=", "class_matrix.html#aac6dd563f8c6f859f3d0760f406a1a58", null ],
+    [ "operator[]", "class_matrix.html#aa003e1b32017f269672db252d8c421a9", null ],
+    [ "operator[]", "class_matrix.html#a0b40c217a6177b6b623b8b42d008fdb7", null ],
+    [ "setIdentity", "class_matrix.html#a7c56f28d03ac651fbb3c9af5c5fac653", null ],
+    [ "setRotation", "class_matrix.html#aa9773d23441295ac416fd837290e9734", null ],
+    [ "setScaling", "class_matrix.html#a169330f1fff3b6c502a1cd8cc4fd5102", null ],
+    [ "setValue", "class_matrix.html#a6db0d5bffe96f02e3ff3ff899e0c4d8d", null ],
+    [ "setValue", "class_matrix.html#aa41bccace8a60592fd8cb0cd74058fa2", null ],
+    [ "setValue", "class_matrix.html#ad5e160109e66a956670c8bb43742c8a7", null ],
+    [ "tdot", "class_matrix.html#aa62b69078f2346d2ba3a6759e12ba577", null ],
+    [ "transpose", "class_matrix.html#a9da9f5ee8215491cc54ecc59ddeb3f73", null ],
+    [ "elem", "class_matrix.html#a23ddc66555d09d75d3d57a6d2084840a", null ]
+];

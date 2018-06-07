@@ -1,0 +1,13 @@
+digraph "tInitCar"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="tInitCar",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" bonnetPos\ndimension\ndrvPos\nstatGC" ,fontname="Helvetica"];
+  Node2 [label="t3Dd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structt3_dd.html",tooltip="3D point. "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" visualAttr" ,fontname="Helvetica"];
+  Node3 [label="tVisualAttributes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structt_visual_attributes.html",tooltip="Static visual attributes. "];
+  Node2 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" exhaustPos" ,fontname="Helvetica"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" wheel" ,fontname="Helvetica"];
+  Node4 [label="tWheelSpec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structt_wheel_spec.html",tooltip="Wheels Specifications. "];
+}

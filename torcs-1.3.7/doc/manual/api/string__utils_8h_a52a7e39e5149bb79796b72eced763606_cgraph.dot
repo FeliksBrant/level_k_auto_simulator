@@ -1,0 +1,17 @@
+digraph "NewStringBuffer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NewStringBuffer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_quaternion_8h.html#a53145b36434d22fb2efa199e4bf97e77"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Quaternion::length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_quaternion.html#a5e4e93c368555bc9abab47741366d0fb"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Quaternion::length2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_quaternion.html#a4a4e91532cd1d3ee9c6da21e979c4f33"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_quaternion_8h.html#af8cf8caa91dd2209c53a956d41cb26ae"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="FreeStringBuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$string__utils_8cpp.html#a7c9ffe53e08e7da4cdb5b619febc1f1f",tooltip="Given a pointer to a stringbuffer pointer, free it and clear it. "];
+}

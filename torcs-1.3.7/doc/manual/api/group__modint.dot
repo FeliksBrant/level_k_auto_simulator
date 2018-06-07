@@ -1,0 +1,15 @@
+digraph "Modules Interfaces"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="Graphic Module Interface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__graphicmodint.html",tooltip="Interface for graphic rendering of the simulation, the graphic module is discovered and loaded during..."];
+  Node4 [label="Track Loader Module\l Interface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__trackmodint.html",tooltip="Interface for track loader modules, the track loader module is discovered and loaded during runtime..."];
+  Node0 [label="Modules Interfaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 [label="Robot Module Interface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__robotmodint.html",tooltip="Interface for robot modules, robot modules are discovered and loaded during runtime. "];
+  Node3 [label="Simulation Module Interface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__simumodint.html",tooltip="Interface for simulation modules, the simulation module is discovered and loaded during runtime..."];
+  Node0->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node4 [shape=plaintext, dir="back", style="solid"];
+}

@@ -1,0 +1,43 @@
+digraph "shutdownCars"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="shutdownCars",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="grShutdownSound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grsound_8cpp.html#adc35d88b9c87621f1829a11c53b73941"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="grShutdownBoardCar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grboard_8cpp.html#a1c9aea8fcbc0663f6133eb8211cb4fdb"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="grShutdownSkidmarks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grskidmarks_8cpp.html#a16269cb0b7d6c7a5bf761d1eb9034062",tooltip="remove the skidmarks information for a car "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="grShutdownSmoke",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grsmoke_8cpp.html#a5530ca27f520ba5dbc08f314cfad7df4",tooltip="remove the smoke information for a car "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="grShudownCarlight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grcarlight_8cpp.html#a78ebd4fca33c442f554ab59484893b52"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="GfParmReleaseHandle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__paramsfile.html#ga1a1597d2697db41bcb9fdb64a6569761",tooltip="Release given parameter set handle parmHandle. "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="GfFatal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tgf_8h.html#a927c58e55400ef72e0e54548b26f973d"];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="parmReleaseHandle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__paramshelper.html#gaed13d1d94abd7055dcd118e91a857cf8",tooltip="Helper function to release the handle and eventually the referenced parameter set (if the reference c..."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="parmReleaseHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__paramshelper.html#ga240416a305e2986d5fe269ae7ecc92df",tooltip="Helper function to release the parameter set if the reference counter is 0. "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="parmClean",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__paramshelper.html#gaac5f3f388c857d021c431414dc192346",tooltip="Helper function to release the parameter set content. "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="removeSection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__paramshelper.html#gac51895ad01bc596f2891d7f1dce31a3b",tooltip="Helper function to remove a section and its contents (subsections, elements). "];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="GfHashRemStr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__hash.html#gac3be5c7744cd56beaed1632489e56d7d",tooltip="Remove an element with a string key from a hash table. "];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="hash_str",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hash_8cpp.html#a54816daefc845f0b3ade33c7243c6b71"];
+  Node13 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="gfRemElem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hash_8cpp.html#ad7fbb4bb2471283e27a8104d62d88720",tooltip="Remove a table element. "];
+  Node12 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="removeParam",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__paramshelper.html#ga927ac59c03ac010619f07922f6a63885",tooltip="Helper function to remove given parameter. "];
+  Node16 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="GfHashRelease",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__hash.html#ga7a1013beb031af3ded1251fb41ba0ae2",tooltip="Release a hash table. "];
+  Node17 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="cGrScreen::setCurrentCar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_gr_screen.html#afaf400bec5db3b07a7ae5db37d3a301f"];
+}

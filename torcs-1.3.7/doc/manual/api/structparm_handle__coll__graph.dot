@@ -1,0 +1,17 @@
+digraph "parmHandle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="parmHandle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" outCtrl" ,fontname="Helvetica"];
+  Node2 [label="parmOutput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structparm_output.html",tooltip="Ouput control structure used for serializing parameter set into XML. "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" curParam" ,fontname="Helvetica"];
+  Node3 [label="param",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structparam.html",tooltip="Parameter header structure, a parameter can either carry a numeric or a string value, numeric value is constraint by min and max, string value by options in within. "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" curSection" ,fontname="Helvetica"];
+  Node4 [label="section",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsection.html",tooltip="Section header structure. "];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" curSubSection\nparent" ,fontname="Helvetica"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" curSection" ,fontname="Helvetica"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" conf" ,fontname="Helvetica"];
+  Node5 [label="parmHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structparm_header.html",tooltip="Configuration header structure. "];
+  Node4 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rootSection" ,fontname="Helvetica"];
+}

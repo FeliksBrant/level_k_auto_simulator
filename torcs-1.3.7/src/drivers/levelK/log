@@ -1,0 +1,137 @@
+1/23
+update: Initialization finished when all level-k drivers are initialized.
+
+1/26
+update: Initialization finished when all level-k drivers are initialized [at the same time]!
+    all cars become immortal. I modified the src/modules/simu/simuv2/collide.cpp 
+        from #define CAR_DAMMAGE 0.1
+        to   #define CAR_DAMMAGE 0.0
+reference:http://xed.ch/h/torcs.html [FAQ/How is damage assessed?]
+I modify the same CAR_DAMMAGE in simuv3/collide.cpp has no effect. Thus TORCS is probably using simuv2.
+
+1/27
+update: comment out all car->dammage in collide.cpp (nodamage for car collision, wall collision) 
+
+1/29
+update: upgrade steer controller
+            1. Dpart is normalized by time (D value is reduced accordingly)
+            2. lookahead takes current speed into account
+                /*maintain lane*/ if(onLane) lookahead = carlength+steer_time*currentSpeed/100.0;
+                /*change   lane*/ else lookahead = carlength*1.2+steer_time*currentSpeed/100.0*10.0;
+                lookahead has two version because when driver tries to maintain lane, angle error will be very small. So the lookahead distance should become smaller accordingly.                
+            3. [!!] no P,D limit yet
+        pass steer test (worst scenario when not hit)
+            test driver is asked to take action every one second. In the worst case, test driver accelerates from 62km/h to 98km/h and moves from left lane to right lane. 
+            Sample test code:
+                int temp = currentsimtime;
+                temp = -(temp%3-1)*5;
+                SpeedPID(nominal_speed+temp);
+
+                lanePos = currentsimtime;
+                lanePos = lanePos%3-1;
+                car->_steerCmd = getSteer(lanePos);
+
+            recording vedio is saved at TORCS_ubuntu/tests
+        add ObserveTtoLK)()
+            old classify_vel(d,v) has a trap that confuses me. I drew a table as the correct interface:
+                    vel      | dist | case
+                -----------------------
+                    <-s.m.   | d< 0 | retreat
+                             | d>=0 | approach
+                -----------------------
+                    > s.m.   | d< 0 | approach
+                             | d>=0 | retreat
+                -----------------------
+                [-s.m.,s.m.] | d< 0 | stable
+        ObserveTtoLK() passed unit and system test
+            tests.cpp added in LevelK folder. It is built for testing implementations. It uses unit_test_framework from EECS280.
+            For quick use, I need to copy source implementation code to tests.cpp. (Don't know how to get rid of this way)
+            classify_vel(d,v) passed the test cases in it. 
+            I checked the observation message by directly observing TORCS with dist, vel outputs. Drive profile is observeTest().
+            Anyway, all tests passed. We can believe ObserveTtoLK() implementation.
+todo: define record class as friend class of LKDriver, which will be used for observation space and recording data
+
+1/31
+update:
+    refine Policy class. Use Policy* stragety for class polymorphism.
+    level0_Policy test passed. 
+    
+2/5
+run classify_vel, level0_Policy unit tests and observation test by observation. 
+add longitudinal constraints
+    todo: consider how to define "safe" 
+add accelerate for Level-0
+add lateral constraints
+
+2/8
+update:
+    Lateral contraints might change actionType. Longitudinal constraints grant driver to be lower than speed limit and not change actionType. This is for honestly modeling human dirver behavior, where we should take human error into account, but also reduce collision rate of current policy. 
+    
+    Dsitance between is calculated to be the closet distance in a round. 
+
+TODO: train new level-k policy. (to get policy closer to human, need to train new policy that has lees collision)
+TODO: debugger: when paused terminal read driver index and return info
+
+
+2/10
+update: put observation into record module
+    Add human data aquisition
+
+2/15
+update:
+    Add human lane change assistant
+        push <- or -> to change one lane in a time, push harder to changer two lane in one time
+    Narowlize the track by setting grass width to be 0.3m to help drivers stay on track. New track files are updated in track.tar.gz
+
+2/16
+update:
+    Add inithandler. All LK drivers init at same time.
+
+    Add data acquasition for level-k driver
+        Experiment data
+            |
+            ---test_#
+                |
+                ---Player.txt
+                ---Lk_#.txt
+
+    initHandler is removed. Modify the original code to realize all level-k driver inits at the same time.
+    
+    // back from stuck
+
+2/26
+update: 
+    all cars consume no fuel. I modified the src/modules/simu/simuv2/engine.cpp that comment out the following code 
+        car->fuel -= cons * engine->rads * engine->fuelcons * 0.0000001 * SimDeltaTime;
+    NOTE: whole torcs project need to be remake and reinstall to make this work
+
+    
+    change race rules so that car whon't fly out due to long lap time
+    this is done by comment out following code in src/libs/raceengineclient/raceengine.cpp, ReRaceRules
+    car->_state |= RM_CAR_STATE_ELIMINATED;
+    
+    ref: https://sourceforge.net/p/torcs/mailman/message/32877187/
+
+3/14
+update:
+    correct D part of car speed controller
+    expand to 30 cars; initial distance between cars are 60m. Can add human player, so that it will be 31 players maximum. (track total length=1856m=31*60m)
+
+TODO: correct D part for lane and speed controller (correct time difference)
+
+3/19
+update: add level1_2
+    inscrease driver density: reduce track length of "three-lane" to 928 m (by half). Thus current density is 30drivers/928m. Close to Nan's training car density. Note that Torcs support a max number drivers of 40. 
+
+    Add collision count in record data.
+
+
+[TODO]:
+    ask tester if seriously finished the test and check their collision counts.
+
+3/20
+update: 
+    lane change assiatant only change one lane at a time
+    enable absolute longitudinal constraint
+    player: reduce lower speed limit to 30km/h when front car is in the range of 3xcarlength
+

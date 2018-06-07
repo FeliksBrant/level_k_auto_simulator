@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="tagSFG_XYUse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtag_s_f_g___x_y_use.html"];
+}

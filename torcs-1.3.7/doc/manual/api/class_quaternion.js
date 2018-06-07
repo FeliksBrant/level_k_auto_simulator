@@ -1,0 +1,26 @@
+var class_quaternion =
+[
+    [ "Quaternion", "class_quaternion.html#abcc01358aada56ea5f0db4da18aaf77d", null ],
+    [ "Quaternion", "class_quaternion.html#a380085cd5456614237f45a5d7ba0721e", null ],
+    [ "Quaternion", "class_quaternion.html#af1084f66bb07ed7a55bb0d3fd47704a0", null ],
+    [ "Quaternion", "class_quaternion.html#a2ee1e055fce87b99ad56e5bd20f3d6ba", null ],
+    [ "Quaternion", "class_quaternion.html#aca63ea1da799a644ed35216a8f3972a6", null ],
+    [ "Quaternion", "class_quaternion.html#a39be72e195a24aa3f5174780332d7669", null ],
+    [ "approxZero", "class_quaternion.html#af1c8e09ad9086baec4a034355894455e", null ],
+    [ "conjugate", "class_quaternion.html#ae387bec8f394bdc58a5ac1480f11140f", null ],
+    [ "conjugate", "class_quaternion.html#a19533dac4d839a72d31908871c9aa37d", null ],
+    [ "inverse", "class_quaternion.html#a2e71a7ea0298adbed24994264921589a", null ],
+    [ "invert", "class_quaternion.html#af412b81da68a27d6e5c259614f8e5fd3", null ],
+    [ "length", "class_quaternion.html#a5e4e93c368555bc9abab47741366d0fb", null ],
+    [ "length2", "class_quaternion.html#a4a4e91532cd1d3ee9c6da21e979c4f33", null ],
+    [ "normalize", "class_quaternion.html#a48e6bafb249c895ed25f29dc9170e11e", null ],
+    [ "normalized", "class_quaternion.html#ab5dfe38fa0b8252ed86890afcd2cdc56", null ],
+    [ "operator*=", "class_quaternion.html#a8941e3b43aabd15e2471e57ebd49c8a7", null ],
+    [ "operator*=", "class_quaternion.html#a31814f654133ea7d5113c35467da82f6", null ],
+    [ "operator+=", "class_quaternion.html#aac7d5610528f151ffc9469b0fdaaef52", null ],
+    [ "operator-=", "class_quaternion.html#ace180c881a89099936efbf2ed3e81009", null ],
+    [ "operator/=", "class_quaternion.html#aa10f5adf08d83970b04657ad9dee2537", null ],
+    [ "random", "class_quaternion.html#a6b3cb5fe5b54bc636c0f5182eb261b20", null ],
+    [ "setEuler", "class_quaternion.html#ad4b1a898420fc0a127be19b6bcd609ac", null ],
+    [ "setRotation", "class_quaternion.html#af615b0108a025e9fe29b15b9335a12f1", null ]
+];
